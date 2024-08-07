@@ -1,0 +1,12 @@
+====Ресурс по поиску книг====
+
+Функции:
+- добавить книгу
+- поиск книг по названию в бд, если книги нет в базе, то найти в интернете и занести
+- поиск автора
+- список жанров
+
+БД books:
+- authors (id pk, name, last_name, year of birth)
+- genres (id pk, genre)
+- books (id pk, title, author fk, year, genre fk)
